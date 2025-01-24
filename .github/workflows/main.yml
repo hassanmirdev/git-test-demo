@@ -12,5 +12,6 @@ jobs:
         - color: pink
           animal: magpie
     runs-on: ubuntu-latest
-  
+    steps:
+    - run: echo ${{ matrix.color }}  ${{ matrix.animal }}  
    
