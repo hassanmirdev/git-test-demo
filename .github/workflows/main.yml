@@ -1,0 +1,16 @@
+on:
+ push:
+jobs:
+  example_matrix:
+    strategy:
+      matrix:
+       color: [green, pink]
+       animal: [owl, magpie]
+       include:
+        - color: blue
+          animal: owl
+        - color: pink
+          animal: magpie
+    runs-on: ubuntu-latest
+  
+   
