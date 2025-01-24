@@ -11,7 +11,7 @@ jobs:
           animal: owl
         - color: pink
           animal: magpie
-    runs-on: macos-latest
+    runs-on: windows-latest
     steps:
     - run: echo ${{ matrix.color }}  ${{ matrix.animal }}  
    
