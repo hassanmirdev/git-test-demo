@@ -13,5 +13,6 @@ jobs:
           animal: magpie
     runs-on: windows-latest
     steps:
-    - run: echo ${{ matrix.color }}  ${{ matrix.animal }}  
+    - run: echo "hello"
+    # echo ${{ matrix.color }}  ${{ matrix.animal }}  
    
